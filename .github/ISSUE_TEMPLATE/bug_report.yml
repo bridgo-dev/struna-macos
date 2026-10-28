@@ -1,0 +1,39 @@
+name: Bug report
+description: Something in Struna does not work as expected.
+labels: [bug]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Issues are public. Do not include license keys, confirmation codes, purchase emails, private file paths or personal music files.
+  - type: input
+    id: version
+    attributes:
+      label: Struna version and build
+      description: Settings → About, for example 2.0.2 (68).
+    validations:
+      required: true
+  - type: input
+    id: macos
+    attributes:
+      label: macOS version and Mac
+      description: For example macOS 15.1, Apple silicon.
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected and actual behavior
+    validations:
+      required: true
+  - type: input
+    id: format
+    attributes:
+      label: Audio format or public radio stream URL
+      description: For playback issues only.
