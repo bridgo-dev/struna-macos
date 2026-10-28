@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: User guide
+    url: https://docs.strunaplayer.com/
+    about: Setup, playback, library and license questions.
+  - name: Purchase, activation or private support
+    url: https://docs.strunaplayer.com/troubleshooting/
+    about: Do not post license keys or emails here. Write to support@bridgo.dev instead.
